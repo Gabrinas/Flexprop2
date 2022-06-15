@@ -1,0 +1,103 @@
+/*Responsiveness of the screen to different sizes. */
+@media only screen and (min-width: 300px) and (max-width: 767px){
+  body{
+    background-color: white;
+  }
+
+/*@media only screen and (min-width: 768px) and (max-width: 1023px){
+  body{background-color: orange;}
+}*/
+
+/*@media screen and (min-width: 720px){
+  body{background-color: red;}
+}*/
+
+
+#ft1{
+  display: flex;
+  background-color: blue;
+  border-radius: 30px 30px; 
+  flex-direction: row;
+  justify-content: center;
+}
+
+/*#ft1 > div{
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}*/
+
+.one{
+  background-color: peru;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.two{
+  background-color: teal;
+}
+
+.three{
+  background-color: darkgreen;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px
+}
+
+img{
+  width: 30px;
+  height: 30px;
+  margin-top: 30px;
+  margin-left: 20px;
+  
+}
+
+p{
+  margin-left: 20px;
+  margin-right: 10px;
+  color: white;
+}
+
+button{
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-top: 50px;
+  border-radius: 20px 20px 20px 20px;
+  width: 150px;
+  height: 40px;
+}
+
+.fr1, .fr3{
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.fr2{
+  color: teal;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.par{
+  font-size: 30px;
+}
+
+.par2{
+  line-height: 25px;
+  text-align: justify;
+  margin-right: 20px;
+}
+
+.but1{
+  color: peru;
+}
+.but2{
+  color: teal;
+}
+.but3{
+  color: darkgreen;
+}
+.but1, .but2, .but3{
+  font-weight: bold;
+}
+
